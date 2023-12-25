@@ -1,0 +1,166 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    color: gray;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Section  */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navbar Brand  */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+    font-size: 1rem;
+}
+
+
+/* Title  */
+#title {
+   
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+
+/* Feature Box  */
+#features {
+    position: relative;
+    
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section  */
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section  */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricising section  */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.signup-btn{
+    font-size: 1rem;
+}
+
+/* Call to section  */
+
+
+/* Footer  */
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+
+    .title-image{
+        transform: rotate(0);
+        position: static;
+        width: 50%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 700px ){
+    .title-image{
+        width: 70%;
+    }
+}
+
